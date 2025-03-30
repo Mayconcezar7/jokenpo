@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpo</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Boldonse&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <h1>Jokenpô</h1>
+
+        <section>
+            <img src="img/papel.png" alt="" onclick="escolhaHumano('papel')">
+            <img src="img/pedra.png" alt="" onclick="escolhaHumano('pedra')">
+            <img src="img/tesoura.png" alt="" onclick="escolhaHumano('tesoura')">
+        </section>
+        <p class="resultado"></p>
+        <p class="maquina-escolha"></p>
+        <div class="pontos">
+            <p class="minha-pontuacao">Pontuação Sua : <span id="humano-ponto">0</span></p>
+            <p class="maquina-pontuacao">Pontuação do Maycon : <span id="maquina-ponto">0</span></p>
+        </div>
+
+    </main>
+</body>
+
+</html>

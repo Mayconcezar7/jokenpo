@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Big Shoulders", sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/fundo.jpg);
+    background-size: cover;
+
+}
+main{
+    background-color: #ffffff2f;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h1{
+    margin-top:50px;
+    margin-bottom: 40px;
+    font-size: 60px;
+    color: aliceblue;
+    font-weight: 400;
+
+}
+
+img{
+    height: 90px;
+    width: 90px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+}
+
+img:hover{
+    background-color: rgba(0, 183, 255, 0.295);
+}
+
+
+.pontos{
+    text-align: start;
+    margin-top: 30px;
+
+}
+
+p{
+    color: aliceblue;
+    font-size: 28px;
+}
+
+.minha-pontuacao span{
+    color: aqua;
+}
+
+
+.maquina-pontuacao span{
+    color: rgb(255, 0, 119);
+}
+
+
+@media screen and (max-width: 850px){
+    main{
+        height: 70vh;
+        width: 90vw;
+    }
+
+    img{
+        height: 70px;
+        width: 70px;
+    }
+}
