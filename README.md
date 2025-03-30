@@ -17,4 +17,4 @@ Java Script
 <img src="img/mobile.png">
 
 <h3>Desktop: </h3>
-<img src="img/Desktop.png">
+<img src="img/image.png">
