@@ -30,7 +30,6 @@ const vencedor = (humano, maquina) => {
 
     if (humano === maquina) {
         
-        maquinaEscolha.innerHTML = `Ele escolheu: ${escolhaMaquina()}`
         resultado.innerHTML = 'Deu empate'
 
     }
@@ -39,7 +38,6 @@ const vencedor = (humano, maquina) => {
         pontosH++
 
         pontosHumano.innerHTML = pontosH
-        maquinaEscolha.innerHTML = `Ele escolheu: ${escolhaMaquina()}`
         resultado.innerHTML = `Você ganhou!!!`
 
     } else {
@@ -47,7 +45,6 @@ const vencedor = (humano, maquina) => {
         pontosM++
 
         pontosMaquina.innerHTML = pontosM
-        maquinaEscolha.innerHTML = `Ele escolheu: ${escolhaMaquina()}`
         resultado.innerHTML = `O Maycon ganhou!!!`
     }
 
