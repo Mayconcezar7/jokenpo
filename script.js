@@ -24,7 +24,6 @@ const vencedor = (humano, maquina) => {
     const resultado = document.querySelector(".resultado")
     const pontosHumano = document.querySelector("#humano-ponto")
     const pontosMaquina = document.querySelector("#maquina-ponto")
-
     const maquinaEscolha = document.querySelector(".maquina-escolha")
 
     
@@ -36,11 +35,11 @@ const vencedor = (humano, maquina) => {
 
     }
 
-    if ((humano === 'pedra' && maquina === 'tesoura') || (humano === 'tesoura' && maquina === 'papel') || (humano === 'papel' && maquina === 'pedra')) {
+    else if ((humano === 'pedra' && maquina === 'tesoura') || (humano === 'tesoura' && maquina === 'papel') || (humano === 'papel' && maquina === 'pedra')) {
 
         pontosH++
         
-        maquinaEscolha.innerHTML = `Ele escolheu:  ${escolhaMaquina()}`
+        
         pontosHumano.innerHTML = pontosH
         resultado.innerHTML = `Você ganhou!!!`
 
@@ -50,10 +49,12 @@ const vencedor = (humano, maquina) => {
 
         pontosM++
         
-        maquinaEscolha.innerHTML = `Ele escolheu:  ${escolhaMaquina()}`
+        
         pontosMaquina.innerHTML = pontosM
-        resultado.innerHTML = `O Maycon ganhou!!!`
+        resultado.innerHTML = `Você perdeu`
     }
+    
+    maquinaEscolha.innerHTML = `Ele escolheu:  ${escolhaMaquina()}`
 
    
 }
