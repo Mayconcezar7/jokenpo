@@ -17,4 +17,8 @@ Java Script
 <img src="img/mobile.png">
 
 <h3>Desktop: </h3>
+<<<<<<< HEAD
 <img src="img/image.png">
+=======
+<img src="https://github.com/Mayconcezar7/jokenpo/blob/main/img/desktop.png">
+>>>>>>> 39170f2347d233859206d856a2ea0d37627e7643
